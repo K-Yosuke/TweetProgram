@@ -19,10 +19,12 @@
 <!DOCTYPE html>
 
 <html>
+
 <head>
 <meta charset="UTF-8">
 <title>占い</title>
 </head>
+
 <body>
 
 	<p>
