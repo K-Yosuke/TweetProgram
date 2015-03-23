@@ -14,16 +14,19 @@ import javax.servlet.http.HttpServletResponse;
  */
 @WebServlet("/ForwardServlet")
 public class ForwardServlet extends HttpServlet {
-	private static final long serialVersionUID = 1L;
+  private static final long serialVersionUID = 1L;
 
-	/**
-	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
-	 */
-	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
+  /**
+   * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse
+   *      response)
+   */
+  protected void doGet(HttpServletRequest request, HttpServletResponse response)
+      throws ServletException, IOException {
+    // TODO Auto-generated method stub
 
-	// Foward
-	RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/jsp/forward.jsp");
-	dispatcher.forward(request, response);
-	}
+    // Foward
+    RequestDispatcher dispatcher = request
+        .getRequestDispatcher("/WEB-INF/jsp/forward.jsp");
+    dispatcher.forward(request, response);
+  }
 }
