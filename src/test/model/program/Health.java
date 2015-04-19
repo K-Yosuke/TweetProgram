@@ -2,6 +2,9 @@ package test.model.program;
 
 import java.io.Serializable;
 
+/*
+ * eclipse自動生成のgetter, setter専用クラス
+ */
 public class Health implements Serializable {
   private double height, weight, bmi;
   private String bodyType;
