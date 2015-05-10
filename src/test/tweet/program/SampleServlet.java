@@ -24,7 +24,6 @@ public class SampleServlet extends HttpServlet {
    */
   protected void doGet(HttpServletRequest request, HttpServletResponse response)
       throws ServletException, IOException {
-    // TODO Auto-generated method stub
 
     String[] luckArray = { "大吉", "中吉", "吉" };
 
